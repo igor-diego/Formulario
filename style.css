@@ -1,0 +1,76 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(245, 241, 11), rgba(253, 255, 240, 0.973));
+
+}
+
+h1{
+    font-family: 'Baloo Bhaina 2', cursiva;
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.principal{
+    border-radius: 15px;
+    
+}
+
+.principal h2{
+    text-align: center;
+}
+
+.principal > p{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conteudo{
+    border-radius: 15px;
+    width: 398px;
+    height: 65px;
+
+}
+
+.conteudo input{
+    height: 25px;
+    width: 170px;
+    display: block;
+    border-radius: 5px;
+    border-style: 5px;
+}
+
+.principal input{
+    margin-top: 5px;
+}
+
+.opção{
+    margin-top: 15px;
+}
+
+.botão{
+    text-align: center;
+    
+}
+
+.botão button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+@media(max-width: 768px) {
+
+    h1 {
+        color: aliceblue;
+    }
+}
+
+   
